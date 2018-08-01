@@ -1,0 +1,128 @@
+2018/07/21-23:11 [restartedMain] INFO  com.hand.Application- Starting Application on DESKTOP-4QJHM35 with PID 111944 (E:\workspace\ToDo\target\classes started by zhongLingYun in E:\workspace\ToDo)
+2018/07/21-23:11 [restartedMain] INFO  com.hand.Application- No active profile set, falling back to default profiles: default
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e2202fe: startup date [Sat Jul 21 23:11:00 CST 2018]; root of context hierarchy
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat initialized with port(s): 8080 (http)
+2018/07/21-23:11 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2018/07/21-23:11 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet Engine: Apache Tomcat/8.5.23
+2018/07/21-23:11 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner- At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018/07/21-23:11 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-5].[localhost].[/ToDo]- Initializing Spring embedded WebApplicationContext
+2018/07/21-23:11 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 306 ms
+2018/07/21-23:11 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean- Mapping servlet: 'dispatcherServlet' to [/]
+2018/07/21-23:11 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018/07/21-23:11 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018/07/21-23:11 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018/07/21-23:11 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean- Mapping filter: 'requestContextFilter' to: [/*]
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter- Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e2202fe: startup date [Sat Jul 21 23:11:00 CST 2018]; root of context hierarchy
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/userController/findUserMassgeByUserId]}" onto public org.springframework.web.servlet.ModelAndView com.hand.controller.UserController.findUserMassgeByUserId(java.lang.Integer)
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/userController/updateUserMassage]}" onto public java.lang.Integer com.hand.controller.UserController.updateUserMassage()
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Registering beans for JMX exposure on startup
+2018/07/21-23:11 [restartedMain] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer- Tomcat started on port(s): 8080 (http)
+2018/07/21-23:11 [restartedMain] INFO  com.hand.Application- Started Application in 0.565 seconds (JVM running for 7527.551)
+2018/07/21-23:11 [http-nio-8080-exec-5] INFO  org.apache.catalina.core.ContainerBase.[Tomcat-5].[localhost].[/ToDo]- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018/07/21-23:11 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet- FrameworkServlet 'dispatcherServlet': initialization started
+2018/07/21-23:11 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet- FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+2018/07/21-23:11 [http-nio-8080-exec-5] ERROR org.apache.catalina.core.ContainerBase.[Tomcat-5].[localhost].[/ToDo].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [/ToDo] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Unknown return value type: java.lang.Integer] with root cause
+java.lang.IllegalArgumentException: Unknown return value type: java.lang.Integer
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:79) ~[spring-web-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:113) ~[spring-webmvc-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967) ~[spring-webmvc-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901) ~[spring-webmvc-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108) ~[spring-web-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_65]
+2018/07/21-23:12 [Thread-478] INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext- Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e2202fe: startup date [Sat Jul 21 23:11:00 CST 2018]; root of context hierarchy
+2018/07/21-23:12 [Thread-478] WARN  org.springframework.beans.factory.support.DisposableBeanAdapter- Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018/07/21-23:12 [Thread-478] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter- Unregistering JMX-exposed beans on shutdown
+2018-07-23 11:45:35.485  INFO 103592 --- [restartedMain] com.hand.Application                     : Starting Application on DESKTOP-4QJHM35 with PID 103592 (E:\workspace\ToDo\target\classes started by zhongLingYun in E:\workspace\ToDo)
+2018-07-23 11:45:35.486  INFO 103592 --- [restartedMain] com.hand.Application                     : No active profile set, falling back to default profiles: default
+2018-07-23 11:45:36.251  INFO 103592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-23 11:45:36.253  INFO 103592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-23 11:45:36.380  INFO 103592 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-23 11:45:36.385  INFO 103592 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/ToDo]   : Initializing Spring embedded WebApplicationContext
+2018-07-23 11:45:36.922  INFO 103592 --- [restartedMain] com.hand.Application                     : Started Application in 1.498 seconds (JVM running for 534.783)
+2018-07-23 11:45:41.076  INFO 103592 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ToDo]   : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-23 11:46:24.397  WARN 103592 --- [Thread-31] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-07-23 11:46:24.803  INFO 103592 --- [restartedMain] com.hand.Application                     : Starting Application on DESKTOP-4QJHM35 with PID 103592 (E:\workspace\ToDo\target\classes started by zhongLingYun in E:\workspace\ToDo)
+2018-07-23 11:46:24.803  INFO 103592 --- [restartedMain] com.hand.Application                     : No active profile set, falling back to default profiles: default
+2018-07-23 11:46:25.516  INFO 103592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-23 11:46:25.516  INFO 103592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-23 11:46:25.614  INFO 103592 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-23 11:46:25.624  INFO 103592 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/ToDo]   : Initializing Spring embedded WebApplicationContext
+2018-07-23 11:46:26.082  INFO 103592 --- [restartedMain] com.hand.Application                     : Started Application in 1.33 seconds (JVM running for 583.943)
+2018-07-23 11:46:33.337  INFO 103592 --- [http-nio-8080-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/ToDo]   : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-23 11:47:07.554  WARN 103592 --- [Thread-38] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-07-23 11:47:07.890  INFO 103592 --- [restartedMain] com.hand.Application                     : Starting Application on DESKTOP-4QJHM35 with PID 103592 (E:\workspace\ToDo\target\classes started by zhongLingYun in E:\workspace\ToDo)
+2018-07-23 11:47:07.890  INFO 103592 --- [restartedMain] com.hand.Application                     : No active profile set, falling back to default profiles: default
+2018-07-23 11:47:08.247  INFO 103592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-23 11:47:08.248  INFO 103592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-23 11:47:08.320  INFO 103592 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-23 11:47:08.324  INFO 103592 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/ToDo]   : Initializing Spring embedded WebApplicationContext
+2018-07-23 11:47:08.616  INFO 103592 --- [restartedMain] com.hand.Application                     : Started Application in 0.762 seconds (JVM running for 626.477)
+2018-07-23 11:47:11.677  INFO 103592 --- [http-nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/ToDo]   : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-23 11:47:27.067  WARN 103592 --- [Thread-45] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-07-23 11:47:27.379  INFO 103592 --- [restartedMain] com.hand.Application                     : Starting Application on DESKTOP-4QJHM35 with PID 103592 (E:\workspace\ToDo\target\classes started by zhongLingYun in E:\workspace\ToDo)
+2018-07-23 11:47:27.379  INFO 103592 --- [restartedMain] com.hand.Application                     : No active profile set, falling back to default profiles: default
+2018-07-23 11:47:27.774  INFO 103592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-23 11:47:27.774  INFO 103592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-23 11:47:27.843  INFO 103592 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-23 11:47:27.848  INFO 103592 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/ToDo]   : Initializing Spring embedded WebApplicationContext
+2018-07-23 11:47:28.204  INFO 103592 --- [restartedMain] com.hand.Application                     : Started Application in 0.856 seconds (JVM running for 646.065)
+2018-07-23 11:47:28.279  INFO 103592 --- [http-nio-8080-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/ToDo]   : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-23 11:53:36.984  WARN 103592 --- [Thread-52] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2018-07-23 11:53:37.361  INFO 103592 --- [restartedMain] com.hand.Application                     : Starting Application on DESKTOP-4QJHM35 with PID 103592 (E:\workspace\ToDo\target\classes started by zhongLingYun in E:\workspace\ToDo)
+2018-07-23 11:53:37.361  INFO 103592 --- [restartedMain] com.hand.Application                     : No active profile set, falling back to default profiles: default
+2018-07-23 11:53:37.728  INFO 103592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-23 11:53:37.728  INFO 103592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-23 11:53:37.794  INFO 103592 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-07-23 11:53:37.797  INFO 103592 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/ToDo]   : Initializing Spring embedded WebApplicationContext
+2018-07-23 11:53:38.102  INFO 103592 --- [restartedMain] com.hand.Application                     : Started Application in 0.776 seconds (JVM running for 1015.963)
+2018-07-23 11:53:40.020  INFO 103592 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ToDo]   : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-23 12:04:30.956  WARN 103592 --- [Thread-59] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
